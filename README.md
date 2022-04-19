@@ -1,7 +1,10 @@
 The Pet Store
+
 We've got animals and stuff
 
+
 Mission Statement: ''
+
 Link to website
 https://eismeister123.github.io/FinalProject/
 
