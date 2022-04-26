@@ -1,8 +1,8 @@
 /*Basic styling*/
 html {font: 16px 'Lobster', serif;}
-h1 {font-size: 2em; text-align:center; }
-h2 {color:red; font-style: italic; text-align:center; font-size: 1.75em;}
-h3 {font-size: 1.5em; text-align:center;}
+h1 {color:blue; font-size: 5em; text-align:center; font-family: Garamond, serif;}
+h2 { font-style: italic; text-align:center; font-size: 1.75em;}
+h3 {font-size: 1.5em;}
 p {font-size: 1.25em; text-align:center;}
 
 .center{
@@ -38,38 +38,17 @@ td:first-child {
   padding-left:20px;
   padding-right:0;
 }
-/*Pet image button hover*/
+/*Pet image*/
 .petpic{
   height: 50%; width: 50%;
-}
-
-.container {
-  position: relative;
-  width: 50%;
-}
-.container img {
-  width: 100%;
-  height: auto;
-}
-.container button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  display: none;
-}
-.container img:hover + button, button:hover{
-  display: inline-block;
 }
 /*Header*/
 header{
   width:100%;
-  text-align:center;
 }
 header img{
-  display:inline-block;
+  position:absolute;
   margin: 0 auto;
-  width:20%;
-  height:20%;
+  width: 240px;
+  height: 240px;
 }
