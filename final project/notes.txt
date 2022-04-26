@@ -1,1 +1,0 @@
-bootstrap should be buttons, text fields, things we did in class
