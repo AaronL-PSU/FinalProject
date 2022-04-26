@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Imports Bootstrap CSS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="The Pet Store-icon.jpeg" />
+  <title>The Pet Store</title>
+</head>
+<header><img align="left" src="The Pet Store-logo.jpeg">
+  <br>
+  <h1>Welcome to The Pet Store</h1>
+  <br>
+  <br>
+  <h2>Our Mission</h2>  
+  <p> We at The Pet Store aim to make pets and livestock available<br> to all reponsible owners for an affordable price. Place your order below!</p>
+</header>
+
+
+<body>
+<div class="content">
+<br><br><br>
+<table id="ordertable"> <!-- Icons are from FontAwesome, Bootstrap dropdown won't work so used html select instead-->
+  <tbody>
+  <tr>
+    <td><abbr title="A feline friend! Only fully grown cats are available.">Cat</abbr> - $80 <br><img class="petpic" src="cat-solid.svg"><br>Order: 
+      <select id="cats">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="A man's best friend! Only fully grown dogs are available.">Dog</abbr> - $100 <br><img class="petpic" src="dog-solid.svg"><br>Order: 
+      <select id="dogs">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="A medium sized Goldfish, tank sold separately.">Goldfish</abbr> - $7 <br><img class="petpic" src="fish-fins-solid.svg"><br>Order: 
+      <select id="goldfish">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="A green tree frog, native to the Americas.">Frog</abbr> - $10 <br><img class="petpic" src="frog-solid.svg"><br>Order: 
+      <select id="frogs">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><abbr title="A small horse, meant to be a pet.">Pony</abbr> - $300 <br><img class="petpic" src="horse-solid.svg"><br>Order: 
+      <select id="ponies">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="A large spider, handle with care.">Tarantula</abbr> - $20 <br><img class="petpic" src="spider-solid.svg"><br>Order: 
+      <select id="tarantulas">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="A Scarlet Macaw, native to Central and South America.">Parrot</abbr> - $200 <br><img class="petpic" src="crow-solid.svg"><br>Order: 
+      <select id="parrots">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="A social water mammal - often does well with a companion.">Otter</abbr> - $150 <br><img class="petpic" src="otter-solid.svg"><br>Order: 
+      <select id="otters">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><abbr title="The finest grasshoppers on the market, possibly a meal for a tarantula.">Grasshopper</abbr> - $0.5 <br><img class="petpic" src="locust-solid.svg"><br>Order: 
+      <select id="grasshoppers">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="A rather dangerous noodle. Non-venemous, but still bitey.">Snake</abbr> - $125 <br><img class="petpic" src="worm-solid.svg"><br>Order: 
+      <select id="snakes">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="Got milk?">Cow</abbr> - $300 <br><img class="petpic" src="cow-solid.svg"><br>Order: 
+      <select id="cows">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+    <td><abbr title="Don't ask where we got it, we know a guy.">Amphiptere</abbr> - $999 <br><img class="petpic" src="dragon-solid.svg"><br>Order: 
+      <select id="amphipteres">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </td>
+  </tr>
+  </tbody>
+  </table>
+
+<br><br>Hint: Hover over the animals' names for a description of them!<br> Select the animals you want and then press the "Place Order" button.<br><br><br>
+<div class="center"><button onclick="viewOrder()" type="button" class="btn btn-primary btn-lg">Place Order</button></div> <!-- Bootstrap Button-->
+<br><br><br>
+  <p id="cartOutput" font-size="large"></p>
+
+  <br><br>
+    <h3>Create Account</h3>
+    <br>
+  	
+  	Name: <input id="username" type="text" name="name"
+    				placeholder="Enter name">
+                    
+        <br><br>           
+  
+    Email: <input id="useremail" type="text" name="Email"
+                    placeholder="Enter email">
+  
+        <br><br>
+         
+        Password: <input id="userpwd" type="password"
+                    placeholder="Enter Password">
+        <br> 
+        Confirm Password: <input id="userpwdconfirm" type="password"
+                    placeholder="Re-enter Password">
+         
+        <br><br>
+         <!-- Bootstrap button-->
+        <button onclick="createAccount()" type="button" class="btn btn-secondary">Create Account</button> 
+  </form>
+<br>
+<br>
+  <script>
+
+var accountMade=0;
+//defining input variables so they can be viewed in the order method
+var name="";
+var email="";
+var pwd="";
+var pwd2="";
+function createAccount(){
+//get inputs
+ name = document.getElementById("username").value;
+ email = document.getElementById("useremail").value;
+ pwd = document.getElementById("userpwd").value;
+ pwd2 = document.getElementById("userpwdconfirm").value;
+
+ //form validation
+ if(name=="" || email=="" || pwd=="" || pwd2==""){
+  window.alert("A field is blank!");
+ }
+ else{
+   if(pwd!=pwd2){
+    window.alert("Passwords don't match!");
+   }
+   else{
+    window.alert("Account created, you may now view your order!");
+    accountMade=1;
+   }
+ }
+}
+
+function viewOrder(){
+  //Collects all dropdown inputs
+  var numCats = document.getElementById("cats").value;
+  var numDogs = document.getElementById("dogs").value;
+  var numGoldfish = document.getElementById("goldfish").value;
+  var numFrogs = document.getElementById("frogs").value;
+  var numPonies = document.getElementById("ponies").value;
+  var numTarantulas = document.getElementById("tarantulas").value;
+  var numParrots = document.getElementById("parrots").value;
+  var numOtters = document.getElementById("otters").value;
+  var numGrasshoppers = document.getElementById("grasshoppers").value;
+  var numSnakes = document.getElementById("snakes").value;
+  var numCows = document.getElementById("cows").value;
+  var numAmphipteres = document.getElementById("amphipteres").value;
+if (accountMade==0){
+  document.getElementById("cartOutput").innerHTML ="Sign up for an account below to place an order!";
+}
+else if(accountMade==1){
+  //Conditionals for shopping cart
+  document.getElementById("cartOutput").innerHTML = name +"'s order: ";
+  if (numCats>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numCats+ " Cat(s) " + "- $" +numCats*80;
+  }
+  if (numDogs>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numDogs+ " Dog(s) " + "- $" +numDogs*100;
+  }
+  if (numGoldfish>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numGoldfish+ " Goldfish " + "- $" +numGoldfish*7;
+  }
+  if (numFrogs>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numFrogs+ " Frog(s) " + "- $" +numFrogs*10;
+  }
+  if (numPonies>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numPonies+ " Ponie(s) " + "- $" +numPonies*300;
+  }
+  if (numTarantulas>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numTarantulas+ " Tarantula(s) " + "- $" +numTarantulas*20;
+  }
+  if (numParrots>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numParrots+ " Parrot(s) " + "- $" +numParrots*200;
+  }
+  if (numOtters>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numOtters+ " Otter(s) " + "- $" +numOtters*150;
+  }
+  if (numGrasshoppers>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numGrasshoppers+ " Grasshopper(s) " + "- $" +numGrasshoppers*0.5;
+  }
+  if (numSnakes>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numSnakes+ " Snake(s) " + "- $" +numSnakes*125;
+  }
+  if (numCows>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numCows+ " Cow(s) " + "- $" +numCows*300;
+  }
+  if (numAmphipteres>0){
+    document.getElementById("cartOutput").innerHTML += "<br>" + numAmphipteres+ " Amphiptere(s) " + "- $" +numAmphipteres*999;
+  }
+  //Total price
+  document.getElementById("cartOutput").innerHTML += "<br>" + "<br>" + "Total Price: $" +(numCats*80+numDogs*100+numGoldfish*7+numFrogs*10+numPonies*300+numTarantulas*20+numParrots*200+numOtters*150+numGrasshoppers*0.5+numSnakes*125+numCows*300+numAmphipteres*999);
+  document.getElementById("cartOutput").innerHTML += "<br>" + "<br>" + "Invoice email sent to " + email + ", thank you for choosing The Pet Shop!";
+}
+}
+
+  </script>
+</body>
+</div>
+</html>
