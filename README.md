@@ -3,7 +3,7 @@ The Pet Store
 We've got animals and stuff
 
 
-Mission Statement: ''
+Mission Statement: We at The Pet Store aim to make pets and livestock available to all reponsible owners for an affordable price. Place your order below!
 
 Link to website
 https://eismeister123.github.io/FinalProject/
