@@ -10,20 +10,18 @@ https://eismeister123.github.io/FinalProject/
 
 IST 256 Final Project
 
-Additional Notes
-Very rough draft, lots of work left to do
 
 Feedback
 Usability Session 1
-Passenger Notes: I noticed
+Passenger Notes: I noticed that my partner used html select instead of bootstrap
 
-Driver Notes: User 1 provided the following feedback...
+Driver Notes: Drop down doesn't work
 
-Takeaways: I plan to change...
+Takeaways: I plan to change my bootstrap drop downs to selects
 
 Usability Session 2
-Passenger Notes: I noticed
+Passenger Notes: I noticed there were no product descriptions
 
-Driver Notes: User 1 provided the following feedback...
+Driver Notes: Needs a limit on number of products
 
-Takeaways: I plan to change...
+Takeaways: I plan to add descriptions and a limit on product quantities
